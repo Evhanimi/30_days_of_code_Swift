@@ -12,6 +12,7 @@
 		AFD2CC5824BC944800C477FC /* day-2-operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC5724BC944800C477FC /* day-2-operators.swift */; };
 		AFD2CC5A24BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC5924BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift */; };
 		AFD2CC5C24BC96E000C477FC /* day-4-class-vs-instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC5B24BC96E000C477FC /* day-4-class-vs-instance.swift */; };
+		AFF4220524BCF1AE00AB28DB /* day-5-loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4220424BCF1AE00AB28DB /* day-5-loops.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		AFD2CC5724BC944800C477FC /* day-2-operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-2-operators.swift"; sourceTree = "<group>"; };
 		AFD2CC5924BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-3-intro-to-conditional-statements.swift"; sourceTree = "<group>"; };
 		AFD2CC5B24BC96E000C477FC /* day-4-class-vs-instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-4-class-vs-instance.swift"; sourceTree = "<group>"; };
+		AFF4220424BCF1AE00AB28DB /* day-5-loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-5-loops.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				AFD2CC5724BC944800C477FC /* day-2-operators.swift */,
 				AFD2CC5924BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift */,
 				AFD2CC5B24BC96E000C477FC /* day-4-class-vs-instance.swift */,
+				AFF4220424BCF1AE00AB28DB /* day-5-loops.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 				AFD2CC5824BC944800C477FC /* day-2-operators.swift in Sources */,
 				AFD2CC4F24BC92E300C477FC /* main.swift in Sources */,
 				AFD2CC5C24BC96E000C477FC /* day-4-class-vs-instance.swift in Sources */,
+				AFF4220524BCF1AE00AB28DB /* day-5-loops.swift in Sources */,
 				AFD2CC5A24BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
