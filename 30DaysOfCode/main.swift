@@ -10,4 +10,6 @@ import Foundation
 
 
 
-daySix()
+var array = [3,1,4,5]
+reverse(arr: array)
+

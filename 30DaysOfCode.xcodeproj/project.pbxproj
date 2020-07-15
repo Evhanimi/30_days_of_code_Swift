@@ -13,6 +13,7 @@
 		AFD2CC5824BC944800C477FC /* day-2-operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC5724BC944800C477FC /* day-2-operators.swift */; };
 		AFD2CC5A24BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC5924BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift */; };
 		AFD2CC5C24BC96E000C477FC /* day-4-class-vs-instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC5B24BC96E000C477FC /* day-4-class-vs-instance.swift */; };
+		AFE5BCE524BF74FD007B0C2E /* day-7-arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5BCE424BF74FD007B0C2E /* day-7-arrays.swift */; };
 		AFF4220524BCF1AE00AB28DB /* day-5-loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4220424BCF1AE00AB28DB /* day-5-loops.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		AFD2CC5724BC944800C477FC /* day-2-operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-2-operators.swift"; sourceTree = "<group>"; };
 		AFD2CC5924BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-3-intro-to-conditional-statements.swift"; sourceTree = "<group>"; };
 		AFD2CC5B24BC96E000C477FC /* day-4-class-vs-instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-4-class-vs-instance.swift"; sourceTree = "<group>"; };
+		AFE5BCE424BF74FD007B0C2E /* day-7-arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-7-arrays.swift"; sourceTree = "<group>"; };
 		AFF4220424BCF1AE00AB28DB /* day-5-loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-5-loops.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				AFD2CC5B24BC96E000C477FC /* day-4-class-vs-instance.swift */,
 				AFF4220424BCF1AE00AB28DB /* day-5-loops.swift */,
 				AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */,
+				AFE5BCE424BF74FD007B0C2E /* day-7-arrays.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				AFD2CC5C24BC96E000C477FC /* day-4-class-vs-instance.swift in Sources */,
 				AFBBBD3224BE223B004CCBCC /* day-6-lets-review.swift in Sources */,
 				AFF4220524BCF1AE00AB28DB /* day-5-loops.swift in Sources */,
+				AFE5BCE524BF74FD007B0C2E /* day-7-arrays.swift in Sources */,
 				AFD2CC5A24BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
