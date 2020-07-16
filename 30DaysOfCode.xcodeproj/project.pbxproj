@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1EDD1E24C0C4D500078AD0 /* day-8-dictionariesAndMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1EDD1D24C0C4D500078AD0 /* day-8-dictionariesAndMaps.swift */; };
 		AFBBBD3224BE223B004CCBCC /* day-6-lets-review.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */; };
 		AFD2CC4F24BC92E300C477FC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC4E24BC92E300C477FC /* main.swift */; };
 		AFD2CC5624BC932900C477FC /* day-1-data-types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC5524BC932900C477FC /* day-1-data-types.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF1EDD1D24C0C4D500078AD0 /* day-8-dictionariesAndMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-8-dictionariesAndMaps.swift"; sourceTree = "<group>"; };
 		AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-6-lets-review.swift"; sourceTree = "<group>"; };
 		AFD2CC4B24BC92E300C477FC /* 30DaysOfCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 30DaysOfCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD2CC4E24BC92E300C477FC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				AFF4220424BCF1AE00AB28DB /* day-5-loops.swift */,
 				AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */,
 				AFE5BCE424BF74FD007B0C2E /* day-7-arrays.swift */,
+				AF1EDD1D24C0C4D500078AD0 /* day-8-dictionariesAndMaps.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				AFD2CC5C24BC96E000C477FC /* day-4-class-vs-instance.swift in Sources */,
 				AFBBBD3224BE223B004CCBCC /* day-6-lets-review.swift in Sources */,
 				AFF4220524BCF1AE00AB28DB /* day-5-loops.swift in Sources */,
+				AF1EDD1E24C0C4D500078AD0 /* day-8-dictionariesAndMaps.swift in Sources */,
 				AFE5BCE524BF74FD007B0C2E /* day-7-arrays.swift in Sources */,
 				AFD2CC5A24BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift in Sources */,
 			);
