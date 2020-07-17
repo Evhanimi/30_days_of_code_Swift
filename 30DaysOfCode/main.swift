@@ -13,4 +13,6 @@ import Foundation
 //var array = [3,1,4,5]
 //reverse(arr: array)
 
-dict()
+//dict()
+
+print(factorial(n: 2))
