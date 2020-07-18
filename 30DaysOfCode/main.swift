@@ -15,4 +15,6 @@ import Foundation
 
 //dict()
 
-print(factorial(n: 2))
+//print(factorial(n: 2))
+
+print(binaryConsecutiveOne(n: 27))
