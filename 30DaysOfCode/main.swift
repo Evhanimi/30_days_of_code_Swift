@@ -26,6 +26,10 @@ import Foundation
 //print(maxHourglassSum(arr: mat))
 
 
-s.printPerson()
+//s.printPerson()
+//
+//print("Grade: \(s.calculate())")
 
-print("Grade: \(s.calculate())")
+
+let meuBook = MyBook(title: "The Alchemist", author: "Paulo Coelho", price: 248)
+meuBook.display()
