@@ -31,5 +31,16 @@ import Foundation
 //print("Grade: \(s.calculate())")
 
 
-let meuBook = MyBook(title: "The Alchemist", author: "Paulo Coelho", price: 248)
-meuBook.display()
+//let meuBook = MyBook(title: "The Alchemist", author: "Paulo Coelho", price: 248)
+//meuBook.display()
+
+
+var head: Node?
+let n: Int = Int(readLine()!)!
+
+for _ in 0..<n {
+    let element = Int(readLine()!)!
+    head = insert(head: head, data: element)
+}
+
+display(head: head)
