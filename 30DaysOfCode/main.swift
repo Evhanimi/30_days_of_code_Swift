@@ -35,12 +35,20 @@ import Foundation
 //meuBook.display()
 
 
-var head: Node?
-let n: Int = Int(readLine()!)!
+//var head: Node?
+//let n: Int = Int(readLine()!)!
+//
+//for _ in 0..<n {
+//    let element = Int(readLine()!)!
+//    head = insert(head: head, data: element)
+//}
+//
+//display(head: head)
 
-for _ in 0..<n {
-    let element = Int(readLine()!)!
-    head = insert(head: head, data: element)
+let inputString = readLine()!
+
+do {
+    try print(stringToInt(inputString: inputString))
+} catch StringToIntTypecastingError.BadString {
+    print("Bad String")
 }
-
-display(head: head)
