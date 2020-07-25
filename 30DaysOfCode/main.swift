@@ -45,10 +45,13 @@ import Foundation
 //
 //display(head: head)
 
-let inputString = readLine()!
+//let inputString = readLine()!
+//
+//do {
+//    try print(stringToInt(inputString: inputString))
+//} catch StringToIntTypecastingError.BadString {
+//    print("Bad String")
+//}
 
-do {
-    try print(stringToInt(inputString: inputString))
-} catch StringToIntTypecastingError.BadString {
-    print("Bad String")
-}
+print(try power(n: 3, p: 5))
+print(try power(n: 2, p: 4))
