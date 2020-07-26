@@ -60,11 +60,11 @@ class Student: Person {
     }
 }
 
-let nameAndID = readLine()!.components(separatedBy: " ")
-let a = readLine()
-let scores = readLine()!.components(separatedBy: " ").map{ Int($0)! }
-
-let s = Student(firstName: nameAndID[0], lastName: nameAndID[1], id: Int(nameAndID[2])!, scores: scores)
+//let nameAndID = readLine()!.components(separatedBy: " ")
+//let a = readLine()
+//let scores = readLine()!.components(separatedBy: " ").map{ Int($0)! }
+//
+//let s = Student(firstName: nameAndID[0], lastName: nameAndID[1], id: Int(nameAndID[2])!, scores: scores)
 
 //s.printPerson()
 
