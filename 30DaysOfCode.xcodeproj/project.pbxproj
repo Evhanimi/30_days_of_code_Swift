@@ -16,7 +16,9 @@
 		AF1E913924CCDDE00082DC2F /* day-17-moreExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E913824CCDDE00082DC2F /* day-17-moreExceptions.swift */; };
 		AF1EDD1E24C0C4D500078AD0 /* day-8-dictionariesAndMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1EDD1D24C0C4D500078AD0 /* day-8-dictionariesAndMaps.swift */; };
 		AF1EDD3624C2432F00078AD0 /* day-9-recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1EDD3524C2432F00078AD0 /* day-9-recursion.swift */; };
+		AF5515B424D3540F00B84983 /* day-22-BinarySearchTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5515B324D3540F00B84983 /* day-22-BinarySearchTrees.swift */; };
 		AF6AA3BE24D0B09D00855E70 /* day-20-sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AA3BD24D0B09D00855E70 /* day-20-sorting.swift */; };
+		AF6AA3C424D200CD00855E70 /* day-21-generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AA3C324D200CD00855E70 /* day-21-generics.swift */; };
 		AFA71D2824C9FF1800238ECD /* day-15-LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA71D2724C9FF1800238ECD /* day-15-LinkedList.swift */; };
 		AFBBBD3224BE223B004CCBCC /* day-6-lets-review.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */; };
 		AFC5738524CE032700A5B074 /* day-18-queuesAndStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC5738424CE032700A5B074 /* day-18-queuesAndStacks.swift */; };
@@ -52,7 +54,9 @@
 		AF1E913824CCDDE00082DC2F /* day-17-moreExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-17-moreExceptions.swift"; sourceTree = "<group>"; };
 		AF1EDD1D24C0C4D500078AD0 /* day-8-dictionariesAndMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-8-dictionariesAndMaps.swift"; sourceTree = "<group>"; };
 		AF1EDD3524C2432F00078AD0 /* day-9-recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-9-recursion.swift"; sourceTree = "<group>"; };
+		AF5515B324D3540F00B84983 /* day-22-BinarySearchTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-22-BinarySearchTrees.swift"; sourceTree = "<group>"; };
 		AF6AA3BD24D0B09D00855E70 /* day-20-sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-20-sorting.swift"; sourceTree = "<group>"; };
+		AF6AA3C324D200CD00855E70 /* day-21-generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-21-generics.swift"; sourceTree = "<group>"; };
 		AFA71D2724C9FF1800238ECD /* day-15-LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-15-LinkedList.swift"; sourceTree = "<group>"; };
 		AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-6-lets-review.swift"; sourceTree = "<group>"; };
 		AFC5738424CE032700A5B074 /* day-18-queuesAndStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-18-queuesAndStacks.swift"; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				AFC5738424CE032700A5B074 /* day-18-queuesAndStacks.swift */,
 				AFD7514024CF44F3003BEA00 /* day-19-Interfaces.swift */,
 				AF6AA3BD24D0B09D00855E70 /* day-20-sorting.swift */,
+				AF6AA3C324D200CD00855E70 /* day-21-generics.swift */,
+				AF5515B324D3540F00B84983 /* day-22-BinarySearchTrees.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5515B424D3540F00B84983 /* day-22-BinarySearchTrees.swift in Sources */,
 				AF05119324C8EAE400C81588 /* day-14-Scope.swift in Sources */,
 				AFD2CC5624BC932900C477FC /* day-1-data-types.swift in Sources */,
 				AFC5738524CE032700A5B074 /* day-18-queuesAndStacks.swift in Sources */,
@@ -199,6 +206,7 @@
 				AF1E913924CCDDE00082DC2F /* day-17-moreExceptions.swift in Sources */,
 				AF1EDD3624C2432F00078AD0 /* day-9-recursion.swift in Sources */,
 				AFE5BCE524BF74FD007B0C2E /* day-7-arrays.swift in Sources */,
+				AF6AA3C424D200CD00855E70 /* day-21-generics.swift in Sources */,
 				AFD2CC5A24BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift in Sources */,
 				AF05118124C60D8000C81588 /* day-12-Inheritance.swift in Sources */,
 			);
