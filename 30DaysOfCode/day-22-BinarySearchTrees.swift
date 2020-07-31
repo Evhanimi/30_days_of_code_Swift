@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 class Node {
     var data: Int
     var left: Node?
@@ -17,7 +18,6 @@ class Node {
         data  = d
     }
 }
-
 
 class Tree {
     func insert(root: Node?, data: Int) -> Node? {
