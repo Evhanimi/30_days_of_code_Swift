@@ -21,6 +21,7 @@
 		AF6AA3BE24D0B09D00855E70 /* day-20-sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AA3BD24D0B09D00855E70 /* day-20-sorting.swift */; };
 		AF6AA3C424D200CD00855E70 /* day-21-generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AA3C324D200CD00855E70 /* day-21-generics.swift */; };
 		AF74C50B24D9EB9A002E13BC /* day-25-TimeAndComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74C50A24D9EB9A002E13BC /* day-25-TimeAndComplexity.swift */; };
+		AF74C50F24D9F33C002E13BC /* day-27-Testing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF74C50D24D9F33C002E13BC /* day-27-Testing.cpp */; };
 		AF84A01524D4DA3600A6436B /* day-23-BST-LevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84A01424D4DA3600A6436B /* day-23-BST-LevelOrderTraversal.swift */; };
 		AFA71D2824C9FF1800238ECD /* day-15-LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA71D2724C9FF1800238ECD /* day-15-LinkedList.swift */; };
 		AFBBBD3224BE223B004CCBCC /* day-6-lets-review.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */; };
@@ -63,6 +64,7 @@
 		AF6AA3BD24D0B09D00855E70 /* day-20-sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-20-sorting.swift"; sourceTree = "<group>"; };
 		AF6AA3C324D200CD00855E70 /* day-21-generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-21-generics.swift"; sourceTree = "<group>"; };
 		AF74C50A24D9EB9A002E13BC /* day-25-TimeAndComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-25-TimeAndComplexity.swift"; sourceTree = "<group>"; };
+		AF74C50D24D9F33C002E13BC /* day-27-Testing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "day-27-Testing.cpp"; sourceTree = "<group>"; };
 		AF84A01424D4DA3600A6436B /* day-23-BST-LevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-23-BST-LevelOrderTraversal.swift"; sourceTree = "<group>"; };
 		AFA71D2724C9FF1800238ECD /* day-15-LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-15-LinkedList.swift"; sourceTree = "<group>"; };
 		AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-6-lets-review.swift"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				AF23BF9A24D6137D001B5B8C /* day-24-moreLinkedLists.swift */,
 				AFC4459D24D8BC38000E88AD /* day-26-NestedLogic.swift */,
 				AF74C50A24D9EB9A002E13BC /* day-25-TimeAndComplexity.swift */,
+				AF74C50D24D9F33C002E13BC /* day-27-Testing.cpp */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				TargetAttributes = {
 					AFD2CC4A24BC92E300C477FC = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -204,6 +208,7 @@
 				AFC5738524CE032700A5B074 /* day-18-queuesAndStacks.swift in Sources */,
 				AFD2CC5824BC944800C477FC /* day-2-operators.swift in Sources */,
 				AFD7514124CF44F3003BEA00 /* day-19-Interfaces.swift in Sources */,
+				AF74C50F24D9F33C002E13BC /* day-27-Testing.cpp in Sources */,
 				AFA71D2824C9FF1800238ECD /* day-15-LinkedList.swift in Sources */,
 				AF1E913724CCDB040082DC2F /* day-16-exceptions-StringToInteger.swift in Sources */,
 				AF05117B24C5B8A200C81588 /* day-11-2DArrays.swift in Sources */,
@@ -347,10 +352,18 @@
 		AFD2CC5324BC92E300C477FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T373QFGJQA;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "30DaysOfCode/30DaysOfCode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -358,10 +371,17 @@
 		AFD2CC5424BC92E300C477FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T373QFGJQA;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "30DaysOfCode/30DaysOfCode-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
