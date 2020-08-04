@@ -23,6 +23,7 @@
 		AF84A01524D4DA3600A6436B /* day-23-BST-LevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84A01424D4DA3600A6436B /* day-23-BST-LevelOrderTraversal.swift */; };
 		AFA71D2824C9FF1800238ECD /* day-15-LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA71D2724C9FF1800238ECD /* day-15-LinkedList.swift */; };
 		AFBBBD3224BE223B004CCBCC /* day-6-lets-review.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */; };
+		AFC4459E24D8BC38000E88AD /* day-26-NestedLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4459D24D8BC38000E88AD /* day-26-NestedLogic.swift */; };
 		AFC5738524CE032700A5B074 /* day-18-queuesAndStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC5738424CE032700A5B074 /* day-18-queuesAndStacks.swift */; };
 		AFD2CC4F24BC92E300C477FC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC4E24BC92E300C477FC /* main.swift */; };
 		AFD2CC5624BC932900C477FC /* day-1-data-types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2CC5524BC932900C477FC /* day-1-data-types.swift */; };
@@ -63,6 +64,7 @@
 		AF84A01424D4DA3600A6436B /* day-23-BST-LevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-23-BST-LevelOrderTraversal.swift"; sourceTree = "<group>"; };
 		AFA71D2724C9FF1800238ECD /* day-15-LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-15-LinkedList.swift"; sourceTree = "<group>"; };
 		AFBBBD3124BE223B004CCBCC /* day-6-lets-review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-6-lets-review.swift"; sourceTree = "<group>"; };
+		AFC4459D24D8BC38000E88AD /* day-26-NestedLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-26-NestedLogic.swift"; sourceTree = "<group>"; };
 		AFC5738424CE032700A5B074 /* day-18-queuesAndStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-18-queuesAndStacks.swift"; sourceTree = "<group>"; };
 		AFD2CC4B24BC92E300C477FC /* 30DaysOfCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 30DaysOfCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD2CC4E24BC92E300C477FC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				AF5515B324D3540F00B84983 /* day-22-BinarySearchTrees.swift */,
 				AF84A01424D4DA3600A6436B /* day-23-BST-LevelOrderTraversal.swift */,
 				AF23BF9A24D6137D001B5B8C /* day-24-moreLinkedLists.swift */,
+				AFC4459D24D8BC38000E88AD /* day-26-NestedLogic.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				AF84A01524D4DA3600A6436B /* day-23-BST-LevelOrderTraversal.swift in Sources */,
 				AF1EDD3624C2432F00078AD0 /* day-9-recursion.swift in Sources */,
 				AFE5BCE524BF74FD007B0C2E /* day-7-arrays.swift in Sources */,
+				AFC4459E24D8BC38000E88AD /* day-26-NestedLogic.swift in Sources */,
 				AF6AA3C424D200CD00855E70 /* day-21-generics.swift in Sources */,
 				AFD2CC5A24BC95EC00C477FC /* day-3-intro-to-conditional-statements.swift in Sources */,
 				AF05118124C60D8000C81588 /* day-12-Inheritance.swift in Sources */,
