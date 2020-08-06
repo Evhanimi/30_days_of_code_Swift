@@ -1,8 +1,8 @@
 //
 //  day-12-Inheritance.swift
-//  30DaysOfCode
+//  desafio
 //
-//  Created by Lidiane Gomes Barbosa on 20/07/20.
+//  Created by Lidiane Gomes Barbosa on 06/08/20.
 //  Copyright © 2020 Lidiane Gomes Barbosa. All rights reserved.
 //
 
@@ -59,13 +59,3 @@ class Student: Person {
 
     }
 }
-
-//let nameAndID = readLine()!.components(separatedBy: " ")
-//let a = readLine()
-//let scores = readLine()!.components(separatedBy: " ").map{ Int($0)! }
-//
-//let s = Student(firstName: nameAndID[0], lastName: nameAndID[1], id: Int(nameAndID[2])!, scores: scores)
-
-//s.printPerson()
-
-//print("Grade: \(s.calculate())")

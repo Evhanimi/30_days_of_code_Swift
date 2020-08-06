@@ -1,30 +1,13 @@
 //
 //  day-10-binaryNumbers.swift
-//  30DaysOfCode
+//  desafio
 //
-//  Created by Lidiane Gomes Barbosa on 18/07/20.
+//  Created by Lidiane Gomes Barbosa on 06/08/20.
 //  Copyright © 2020 Lidiane Gomes Barbosa. All rights reserved.
 //
 
 import Foundation
-/*
- 
- Objective
- Today, we're working with binary numbers. Check out the Tutorial tab for learning materials and an instructional video!
- 
- Task
- Given a base-10 integer,n , convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in n's binary representation.
- 
- Input Format
- A single integer, n.
- 
- Constraints
- 1 <= n <= 10ˆ6
 
- Output Format
- Print a single base-10 integer denoting the maximum number of consecutive 1's in the binary representation of .
- 
- */
 
 func makeBinary(_ n:Int) -> [Int]{
     var matbin = [Int]()
