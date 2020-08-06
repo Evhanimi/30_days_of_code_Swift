@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF5B172424DCCDCE00E9EC18 /* day-28-RegExPatternsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B172324DCCDCE00E9EC18 /* day-28-RegExPatternsDatabase.swift */; };
 		AFA6195C24DCC73500E504EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA6195B24DCC73500E504EE /* main.swift */; };
 		AFA6196724DCC7A000E504EE /* day-1-data-types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA6196624DCC7A000E504EE /* day-1-data-types.swift */; };
 		AFA6196924DCC7DC00E504EE /* day-2-operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA6196824DCC7DC00E504EE /* day-2-operators.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF5B172324DCCDCE00E9EC18 /* day-28-RegExPatternsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-28-RegExPatternsDatabase.swift"; sourceTree = "<group>"; };
 		AFA6195824DCC73500E504EE /* desafio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = desafio; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA6195B24DCC73500E504EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AFA6196624DCC7A000E504EE /* day-1-data-types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-1-data-types.swift"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				AFA6199A24DCCA6200E504EE /* day-25-TimeAndComplexity.swift */,
 				AFA6199C24DCCA6A00E504EE /* day-26-NestedLogic.swift */,
 				AFA6199E24DCCAA000E504EE /* day-27-Testing.cpp */,
+				AF5B172324DCCDCE00E9EC18 /* day-28-RegExPatternsDatabase.swift */,
 			);
 			path = desafio;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				AFA6199124DCCA0A00E504EE /* day-21-generics.swift in Sources */,
 				AFA6196B24DCC80E00E504EE /* day-3-intro-to-conditional-statements.swift in Sources */,
 				AFA6197D24DCC93900E504EE /* day-12-Inheritance.swift in Sources */,
+				AF5B172424DCCDCE00E9EC18 /* day-28-RegExPatternsDatabase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
