@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF5B172424DCCDCE00E9EC18 /* day-28-RegExPatternsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B172324DCCDCE00E9EC18 /* day-28-RegExPatternsDatabase.swift */; };
+		AF5B172624DCD00700E9EC18 /* day-29-bitwiseAnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B172524DCD00700E9EC18 /* day-29-bitwiseAnd.swift */; };
 		AFA6195C24DCC73500E504EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA6195B24DCC73500E504EE /* main.swift */; };
 		AFA6196724DCC7A000E504EE /* day-1-data-types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA6196624DCC7A000E504EE /* day-1-data-types.swift */; };
 		AFA6196924DCC7DC00E504EE /* day-2-operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA6196824DCC7DC00E504EE /* day-2-operators.swift */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		AF5B172324DCCDCE00E9EC18 /* day-28-RegExPatternsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-28-RegExPatternsDatabase.swift"; sourceTree = "<group>"; };
+		AF5B172524DCD00700E9EC18 /* day-29-bitwiseAnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-29-bitwiseAnd.swift"; sourceTree = "<group>"; };
 		AFA6195824DCC73500E504EE /* desafio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = desafio; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA6195B24DCC73500E504EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AFA6196624DCC7A000E504EE /* day-1-data-types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day-1-data-types.swift"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				AFA6199C24DCCA6A00E504EE /* day-26-NestedLogic.swift */,
 				AFA6199E24DCCAA000E504EE /* day-27-Testing.cpp */,
 				AF5B172324DCCDCE00E9EC18 /* day-28-RegExPatternsDatabase.swift */,
+				AF5B172524DCD00700E9EC18 /* day-29-bitwiseAnd.swift */,
 			);
 			path = desafio;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				AFA6196D24DCC82A00E504EE /* day-4-class-vs-instance.swift in Sources */,
 				AFA6197924DCC8FA00E504EE /* day-10-binaryNumbers.swift in Sources */,
 				AFA6199924DCCA5200E504EE /* day-24-moreLinkedLists.swift in Sources */,
+				AF5B172624DCD00700E9EC18 /* day-29-bitwiseAnd.swift in Sources */,
 				AFA6198124DCC9AB00E504EE /* day-13-abstractClass.swift in Sources */,
 				AFA6197124DCC87A00E504EE /* day-6-lets-review.swift in Sources */,
 				AFA6198F24DCCA0200E504EE /* day-20-sorting.swift in Sources */,
